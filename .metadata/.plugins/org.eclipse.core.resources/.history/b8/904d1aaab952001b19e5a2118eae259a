@@ -1,0 +1,12 @@
+package array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class findingMatchingWords {
+
+	public static void main(String[] inpuStrings) {
+		
+			}
+
+}

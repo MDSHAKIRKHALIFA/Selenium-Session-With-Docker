@@ -1,0 +1,21 @@
+package array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class findingMatchingWords {
+
+	public static void main(String[] inpuStrings) {
+		String names = "my name is shakir my hobby is gerdaning";
+		String name[] = inpuStrings.split(" ");
+		
+		Map<String, Integer> hashMap = new HashMap<String, Integer>();
+
+		for(String words: name) {
+			if(hasMap.containsKey(words)) {
+				
+			}
+		}
+	}
+
+}

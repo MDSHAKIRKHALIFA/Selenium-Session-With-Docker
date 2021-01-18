@@ -1,0 +1,24 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class FindingMatchingWordFromString {
+
+	public static void main(String[] args) {
+		
+		String sentance = "My name is Shakir My home town is in Barisal";
+		String name[] = sentance.split(" ");
+		
+		Map<String, Integer> duplicate = new HashMap<String, Integer>();
+		for(int i=0;i<name.length;i++) {
+            String word = name[i].toUpperCase(); // for case insensitive comparison
+            if(duplicate.get(word)!=null) {
+                // we found a duplicated word!
+                System.out.println("Duplicated/Repeated word:"+word);
+            }else {
+            //	duplicate.put(word, word);
+            }
+        }
+    }
+
+}
